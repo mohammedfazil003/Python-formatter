@@ -1,5 +1,10 @@
 repos:
-  - repo: https://github.com/pycqa/flake8
-    rev: 4.0.1
+  - repo: local
     hooks:
       - id: flake8
+        name: flake8
+        entry: bash -c "cd Python-formatter && flake8"
+        language: python
+        pass_filenames: false
+        files: ^Python-formatter/
+        types: [ python ]

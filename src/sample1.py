@@ -3,17 +3,24 @@
   West-Indies, Korea,Netherland.
  """
 
-import os  # noqa
+import os, random
 
 
-def print_morning(name):
-    print(f"Hi , {name}")
+
+# Method with one argument
 
 
-print_morning("Welcome")
+def print_moning(name="Black"):
+    value = random.random()
+    print(f"Hi,{name}")
 
-abc = {1, 1, 1, 1, 2, 2, 2, 2, 2}
 
-xyz = [1, 2, 3, 4, 5, 6]
+print_morning("formatter")
 
-scale = "We had a decision about the black and flake8 we need to look for length as both the library length varies."
+abc = {1,1,1,1,2, 2, 2, 2, 2}
+
+scale = "We had a decision about the h varies. We had a decision about the black and flake8 we need to look for length as both the library length varies."
+print(scale)
+
+scale1 = "We had a decision about the h varies. We had a decision about the black and flake8 we need to look for "
+import sys
