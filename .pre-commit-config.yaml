@@ -3,5 +3,4 @@ repos:
     rev: 4.0.1
     hooks:
     -   id: flake8
-        name: flake8 ./Python-formatter/
-        args: [--config, /.flake8]
+        args: [--config, .flake8]
